@@ -3,7 +3,6 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
     v.Parent = game.Players.LocalPlayer.Character
     bp.Parent = v.Handle
     bp.Position = game.Players.LocalPlayer.Character.Head.Position
-    v.Handle.Mesh:Destroy()
     v.Handle.Parent = workspace
     
     
